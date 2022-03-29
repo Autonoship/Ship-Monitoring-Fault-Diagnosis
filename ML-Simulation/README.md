@@ -1,12 +1,12 @@
 ## Installation Steps:
 
-1.Install Anaconda3.
+1. Install Anaconda3.
 
-2.Install Docker.
+2. Install Docker.
 
-3.Clone the repository, navigate to the folder where the repository is located. 
+3. Clone the repository, navigate to the folder where the repository is located. 
 
-4.Create and activate a conda environment to run the code. Run following commands in the environment to install packages.
+4. Create and activate a conda environment to run the code. Run following commands in the environment to install packages.
 
 ```
 pip install -r /path/to/requirements.txt
