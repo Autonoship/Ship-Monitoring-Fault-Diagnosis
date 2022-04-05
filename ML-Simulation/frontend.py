@@ -70,6 +70,10 @@ app.layout = html.Div(
         html.Div([
             html.H2('Sensor Data', style={'margin-bottom':'0'}),
             html.Div([
+                html.Div(dcc.Graph(id='live-update-graph3'), style={'width': '85%', 'display': 'inline-block', 'margin-top':'0px'}),
+                html.Div(html.Div(id='live-update-text3'), style={'width': '15%', 'display': 'inline-block', 'vertical-align': 'top', 'margin-top':'100px'})
+            ]),
+            html.Div([
                 html.Div(dcc.Graph(id='live-update-graph1', animate = True), style={'width': '85%', 'display': 'inline-block', 'margin-top':'0px'}),
                 html.Div(html.Div(id='live-update-text1'), style={'width': '15%', 'display': 'inline-block', 'vertical-align': 'top', 'margin-top':'100px'})
             ]),
@@ -77,14 +81,11 @@ app.layout = html.Div(
                 html.Div(dcc.Graph(id='live-update-graph2', animate = True), style={'width': '85%', 'display': 'inline-block', 'margin-top':'0px'}),
                 html.Div(html.Div(id='live-update-text2'), style={'width': '15%', 'display': 'inline-block', 'vertical-align': 'top', 'margin-top':'100px'})
             ]),
-            html.Div([
-                html.Div(dcc.Graph(id='live-update-graph3'), style={'width': '85%', 'display': 'inline-block', 'margin-top':'0px'}),
-                html.Div(html.Div(id='live-update-text3'), style={'width': '15%', 'display': 'inline-block', 'vertical-align': 'top', 'margin-top':'100px'})
-            ]),
+
         ]),
         html.Hr(style={'color':'#fff'}),
         html.Div([
-            html.H2('Anamoly prediction', style={'margin-bottom':'0'}),
+            html.H2('Anomaly prediction', style={'margin-bottom':'0'}),
             html.Div([
                 html.Div(dcc.Graph(id='live-update-graph4'), style={'width': '85%', 'display': 'inline-block', 'margin-top':'0px'}),
                 html.Div(html.Div(id='live-update-text4'), style={'width': '15%', 'display': 'inline-block', 'vertical-align': 'top', 'margin-top':'100px'})
