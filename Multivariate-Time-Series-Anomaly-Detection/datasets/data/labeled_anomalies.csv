@@ -1,0 +1,19 @@
+chan_id,spacecraft,anomaly_sequences,class,num_values
+NO.1_Gas,ASC,[],"[contextual, contextual, contextual]",692
+NO.2_Gas,ASC,[],"[contextual, contextual, contextual]",692
+NO.3_Gas,ASC,[],"[contextual, contextual, contextual]",692
+NO.4_Gas,ASC,[],"[contextual, contextual, contextual]",692
+NO.5_Gas,ASC,[],"[contextual, contextual, contextual]",692
+NO.6_Gas,ASC,[],"[contextual, contextual, contextual]",692
+NO.7_Gas,ASC,[],"[contextual, contextual, contextual]",692
+NO.8_Gas,ASC,[],"[contextual, contextual, contextual]",692
+NO.1_Scav,ASC,[],"[contextual, contextual, contextual]",692
+NO.2_Scav,ASC,[],"[contextual, contextual, contextual]",692
+NO.3_Scav,ASC,[],"[contextual, contextual, contextual]",692
+NO.4_Scav,ASC,[],"[contextual, contextual, contextual]",692
+NO.5_Scav,ASC,[],"[contextual, contextual, contextual]",692
+NO.6_Scav,ASC,[],"[contextual, contextual, contextual]",692
+NO.7_Scav,ASC,"[[5864,6556]]","[contextual, contextual, contextual]",692
+NO.8_Scav,ASC,[],"[contextual, contextual, contextual]",692
+LOAD,ASC,[],"[contextual, contextual, contextual]",692
+RPM,ASC,[],"[contextual, contextual, contextual]",692
